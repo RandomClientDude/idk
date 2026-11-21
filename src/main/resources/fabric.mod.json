@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "clientclient",
+  "version": "${version}",
+  "name": "ClientClient",
+  "description": "Client-side utility mod with a ClickGUI and animated HUD.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.clientclient.ClientClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "~1.21.11", "fabric-api": "*" }
+}
